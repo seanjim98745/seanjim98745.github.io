@@ -1,0 +1,374 @@
+*{
+box-sizing: border-box;
+font-family: 'Noto Sans TC', sans-serif;
+
+}
+html{
+  height: 100%;
+}
+#container{
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 100px;
+}
+footer{
+  
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  letter-spacing: 1px;
+  padding: 30px;
+  bottom: 0px;
+  left: 0px;
+  background: #1b1b1b;
+            color: #6f7273;
+            
+
+}
+i{
+  padding: 5px;
+  color: #fff;
+}
+#header{
+    height: 100vh;
+    background-color: black;
+}
+.headerBox{
+  padding-top: 25px;}
+.navbar-nav {
+    font-size: 1.1rem;
+}
+.container{
+    width: 100%;
+    height:auto;
+}
+.title{
+    padding-top: 130px;
+    padding-bottom: 70px;
+    color: #fff;
+    text-align: center;
+}
+.circle{
+    background-color: #fff;
+    margin: 100px  auto 0px auto;
+    width: 300px;
+    height: 300px;
+    -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+
+}
+.wangPhoto{
+    display: block;
+    background-color: #fff;
+    width: 150%;
+    height:150%;
+    margin: auto;
+}
+
+.titleBox{
+  margin:auto;
+    padding-top: 30px;
+    text-align: center;
+    color:#fff;
+    font-size: 3rem;   
+    letter-spacing: 1px;
+}
+
+#titleIcon {
+padding-right:40px ;
+
+}
+#titleIcon li{
+ 
+  display: inline-block;
+  height: 10px;
+  font-size: 1.5rem;
+}
+.titleBox h6{
+    color: 	#808080;
+}
+.titleBox h5{
+  margin: 0px;
+}
+
+  /* info */
+#EXPERIENCE{
+  padding-top: 70px;
+    height: 130vh;
+    background-color:black;
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#timeline-content {
+    text-align: center;
+  
+  }
+  /* Timeline */
+  .timeline {
+    border-left: 4px solid #fff;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.8);
+    
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 40%;
+  }
+  @media screen and (max-width:480px){
+    .timeline{
+      max-width: none;
+    }
+    #EXPERIENCE{
+        height: 180vh;
+    }
+
+}
+  .timeline h1 {
+    
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 1.2em;
+  }
+  .timeline h3 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .timeline p{
+      font-size: 0.9em;
+  }
+  .timeline .event {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+  .timeline .event:before,
+  .timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+  }
+  .timeline .event:before {
+    left: -220px;
+    color: rgba(255, 255, 255, 0.4);
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 150px;
+    font-family: 'Saira', sans-serif;
+  }
+  .timeline .event:after {
+    box-shadow: 0 0 0 4px #ffffff;
+    left: -60px;
+    background: #313534;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    content: "";
+    top: 5px;
+  }
+  /* //info */
+  
+#Autobiography{
+    padding-top: 100px;
+    height: 140vh;
+    background-color: black;
+    color:#ffffff;
+}
+@media screen and (max-width:1000px){
+  
+  #scrollPhoto{
+    display:none;
+  }
+  #Autobiography{
+    height: 180vh;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+}
+
+.resumeText{
+    padding-top: 100px;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+}
+  
+#scrollPhoto{
+   margin:0 20px 0 20px;
+    width: 90%;
+    height: 700px;
+    background-image:url(../img/Bob.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+
+
+ /* portfolio */
+
+ 
+ .btn_style{
+     color: #808080;
+     font-size: 1.5rem;
+     text-align: center;
+
+ }
+ 
+ .btn_style:active, .btn_style.active{
+     color:#fff;
+     border:solid #fff 1px; 
+     font-size: 1.6rem;
+
+ }
+
+ #PORTFOLIO{
+  padding-top: 150px;
+  height: 150vh;
+  background-color: black;
+}
+@media screen and (max-width:768px){
+  #PORTFOLIO{
+    height: 200vh;
+    }
+    .col-sm-12{
+      height:300px;
+    }
+    .col-md-6{
+      height: 300px;
+    }
+  }
+  
+
+  #portfolioItembox {
+    padding:0px;
+  }
+  .portfolioItem {   
+    width:100%;
+    height:280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .btnBox{
+    padding-bottom:30px ;
+  }
+
+  .Homestay{
+    background-image: url(../img/homestay.png);
+   
+    height: 100%;
+    
+  }
+   .Neon{
+    background-image: url(../img/neon.png);
+   height: 100%;
+  }
+  
+    li{
+      list-style-type:none;
+     }  
+     
+          
+          
+         /* skill */
+           #SKILL {
+             height:75vh ;
+             padding-top: 30px;
+             background:black;
+           }
+           @media screen and (max-width:768px){
+            #SKILL{
+              height: 120vh;
+            }
+            }
+           .skillTitle{
+             color:#fff;
+           }
+
+            #SKILL a {
+             display: inline-block;
+             margin: 0,10px,10px,0;
+           }
+           ul.common-list li {
+             border-bottom: 1px solid #333;
+           }
+           ul.common-list a {
+             display: block;
+             line-height: 50px;
+             color: #a2a2a2;
+             text-decoration: none;
+             text-decoration: capitalize;
+           }
+           ul.common-list a:before {
+             content: ">";
+             margin-right: 10px;
+           }
+           
+
+           .copyright a {
+             color: white;
+             text-decoration: none;
+           }
+   
+           
+/* //photoColor */
+#scrollPhoto, .wangPhoto {
+ 
+    
+  max-width: 100%;
+  animation: filter 20s infinite;
+  animation: filter 7s infinite;
+}
+.dark{
+  background-color: black;
+}
+
+@keyframes filter {
+  from {
+    filter: hue-rotate(0deg) saturate(100%);
+  }
+  50% {
+    filter: hue-rotate(360deg) saturate(140%);
+}
+  to {
+    filter: hue-rotate(0deg) saturate(100%);
+  }
+}
+
+@keyframes contrast {
+  from {
+    filter: contrast(100%);
+  }
+  80% {
+    filter: contrast(150%);
+  }
+  to {
+    filter: contrast(100%);
+ }
+} 
+
+
+
+
+    
